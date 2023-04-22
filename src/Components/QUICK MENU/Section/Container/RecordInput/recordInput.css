@@ -1,0 +1,126 @@
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 3px solid rgb(144, 233, 156);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  border-radius: 10px;
+  margin: 20px;
+  height: 700px;
+}
+
+.RecordMethodContainer {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.904);
+  border-radius: 10px;
+  width: 50%;
+}
+
+.InputContainer .RecordMethodContainer .desc {
+  padding: 5px;
+  font-weight: 16;
+  font-size: 18px;
+}
+
+.InputContainer .RecordMethodContainer .formlabel {
+  font-weight: 16;
+  font-size: 16px;
+  color: rgb(37, 126, 71);
+}
+
+.InputContainer .OtherContainer {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.904);
+  border-radius: 10px;
+}
+
+.InputContainer .OtherContainer .DatePickerContainer {
+  padding-bottom: 10px;
+}
+
+.InputContainer .OtherContainer .DetailContainer {
+  padding-bottom: 10px;
+}
+
+.InputContainer .OtherContainer .DetailContainer .field {
+  padding-bottom: 10px;
+}
+
+.BoxContainer1{
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  height: 250px;
+  width: 450px;
+  margin: 12px;
+}
+
+.MapContainer1{
+  
+  
+  height: 350px;
+  border: 1px solid rgba(144, 233, 156, 0.75);
+  
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .InputContainer {
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+  }
+
+  .InputContainer .RecordMethodContainer {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .InputContainer .OtherContainer {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .InputContainer .RecordMethodContainer .formlabel {
+    font-size: 20px;
+  }
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 1200px) {
+  .InputContainer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .InputContainer .RecordMethodContainer {
+    flex-basis: 40%;
+    margin-right: 20px;
+    padding: 20px;
+  }
+
+  .InputContainer .OtherContainer {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .InputContainer .RecordMethodContainer .formlabel {
+    font-size: 30px;
+  }
+
+  .BoxContainer1{
+    width: auto;
+  }
+  
+  
+}

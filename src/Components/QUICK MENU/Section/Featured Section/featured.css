@@ -1,0 +1,192 @@
+/* Default styles */
+.featured {
+  flex: 2;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  border-radius: 5px;
+  width: 550px;
+}
+
+.featured .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.featured .top .title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.featured .bottom {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.featured .bottom .featuredgraph {
+  width: 100px;
+  height: 100px;
+}
+
+.featured .bottom .title {
+  font-weight: 5;
+  color: grey;
+}
+
+.featured .bottom .amount {
+  font-size: 30px;
+}
+
+.featured .bottom .desc {
+  font-weight: 300;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+
+.featured .bottom .summary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured .bottom .summary .item {
+  text-align: center;
+}
+
+.featured .bottom .summary .item .itemTitle {
+  font-size: 14px;
+  color: black;
+}
+
+.featured .bottom .summary .item .itemResult {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-style: 14px;
+}
+
+.featured .bottom .summary .item .itemResult.positive {
+  color: green;
+}
+
+.featured .bottom .summary .item .itemResult.negative {
+  color: red;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 918px) {
+  .featured {
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .featured .top {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .featured .top .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .featured .bottom {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .featured .bottom .featuredgraph {
+    width: 70px;
+    height: 70px;
+  }
+
+  .featured .bottom .title {
+    font-size: 16px;
+  }
+
+  .featured .bottom .amount {
+    font-size: 24px;
+  }
+
+  .featured .bottom .desc {
+    font-size: 10px;
+  }
+
+  .featured .bottom .summary {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .featured .bottom .summary .item {
+    align-items: center;
+    gap: 5px;
+  }
+
+  .featured .bottom .summary .item .itemTitle {
+    font-size: 12px;
+  }
+
+  .featured .bottom .summary .item .itemResult {
+    font-size: 12px;
+  }
+}
+.featured .bottom .summary .item {
+  flex-basis: 30%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.featured .bottom .summary .item .itemTitle {
+  font-size: 0.75rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.featured .bottom .summary .item .itemResult {
+  display: flex;
+  align-items: center;
+  font-style: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.featured .bottom .summary .item .itemResult.positive {
+  color: green;
+}
+
+.featured .bottom .summary .item .itemResult.negative {
+  color: red;
+}
+
+@media only screen and (min-width: 768px) {
+  .featured {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .featured .top {
+    margin-bottom: 0;
+  }
+  
+  .featured .bottom {
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .featured .bottom .featuredgraph {
+    width: 30%;
+  }
+  
+  .featured .bottom .summary .item {
+    flex-basis: 20%;
+  }
+}

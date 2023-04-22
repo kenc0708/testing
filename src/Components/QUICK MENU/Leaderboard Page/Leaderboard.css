@@ -1,0 +1,19 @@
+.charts {
+  width: 87%;
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+}
+.charts .chartsContainer {
+  flex: 6;
+  overflow-y: auto;
+}
+.charts .chartsContainer .widgets, .charts .chartsContainer .graphs {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  overflow-y: auto;
+}
+.charts .chartsContainer .graphs {
+  padding: 5px 20px;
+}/*# sourceMappingURL=Leaderboard.css.map */

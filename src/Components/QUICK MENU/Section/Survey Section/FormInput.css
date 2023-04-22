@@ -1,0 +1,8 @@
+.formInput .input-box {
+  width: 70%;
+  padding: 1rem 2rem;
+  background: var(--whiteColor);
+  border-radius: 5px;
+  gap: 1rem;
+  box-shadow: 0 2px 4px var(--inputColor);
+}/*# sourceMappingURL=formInput.css.map */

@@ -1,0 +1,19 @@
+.charts {
+    display: flex;
+
+    .chartsContainer {
+        flex:6;
+
+        .widgets, .graphs {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .graphs{
+            padding: 5px 20px;
+        }
+    }
+}
+
+

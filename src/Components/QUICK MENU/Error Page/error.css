@@ -1,0 +1,23 @@
+.error{
+    width: 87%;
+}
+
+.EContainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+    
+}
+
+.EText{
+    font-size: 36px;
+    font-weight: 16;
+    text-align: center;
+}
+.errorBtn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}

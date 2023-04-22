@@ -1,0 +1,54 @@
+.InputContainer{
+    display: flex;   
+    padding: 15px;
+    background-color: rgba(144, 233, 156, 0.75);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: 20px;
+   
+
+    .RecordMethodContainer{
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.904);
+        border-radius: 10px;
+        height: auto;
+        width: auto;
+
+        .desc{
+            padding: 5px; 
+        }
+
+        .formlabel{
+            font-size: 26px;
+            color: rgb(37, 126, 71);
+            
+        }
+    }
+
+    .OtherContainer{
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.904);
+        border-radius: 10px;
+        height: auto;
+        width: auto;
+
+        .DatePickerContainer{
+            padding-bottom: 10px;
+            width: auto;
+        }
+
+        .DetailContainer{
+            padding-bottom: 10px;
+
+            .field{
+                padding-bottom: 10px;
+                
+            }
+        }
+    }
+}

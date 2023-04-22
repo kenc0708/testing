@@ -1,0 +1,26 @@
+.BirdContainer {
+  display: flex;
+  padding: 15px;
+  border: 3px solid rgb(144, 233, 156);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  border-radius: 10px;
+  height: 130px;
+  width: 450px;
+  margin: 20px;
+}
+.BirdContainer .head {
+  font-weight: 16;
+  font-size: 24px;
+  color: rgb(37, 126, 71);
+}
+.BirdContainer .async {
+  margin: 20px;
+  width: 100%;
+}/*# sourceMappingURL=birddetail.css.map */
+
+@media screen and (max-width: 768px){
+  .BirdContainer {
+    width: auto;
+    
+  }
+}

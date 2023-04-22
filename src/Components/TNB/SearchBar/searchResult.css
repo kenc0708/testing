@@ -1,0 +1,22 @@
+.search-result {
+    padding: 10px 20px;
+    width: max-content;
+  }
+  
+  .search-result:hover {
+    background-color: #efefef;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .grey {
+    color: grey;
+  }
+
+  .smaller {
+    font-size: 0.8em; /* Adjust the font size as needed */
+  }
+
+  

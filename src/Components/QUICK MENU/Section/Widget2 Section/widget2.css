@@ -1,0 +1,80 @@
+.widget2 {
+  display: flex;
+  justify-content: space-between;
+  flex: 4;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  border-radius: 10px;
+  height: 150px;
+  width: 450px;
+}
+.widget2 .left, .widget2 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.widget2 .left .counter, .widget2 .right .counter {
+  font-size: 26px;
+  font-weight: 300;
+  padding-right: 1rem;
+}
+.widget2 .left .counter .userid, .widget2 .right .counter .userid {
+  color: rgb(0, 0, 0);
+}
+.widget2 .left .counter img, .widget2 .right .counter img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s ease;
+}
+.widget2 .link {
+  color: rgb(240, 188, 17);
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 32px;
+  font-weight: 16;
+  border-bottom: 1px solid gray;
+}
+.widget2 .percentage {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+.widget2 .percentage.positive {
+  color: green;
+}
+.widget2 .percentage.negative {
+  color: red;
+}
+.widget2 .icon {
+  font-style: 24px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+.widget2 .place {
+  padding: 10px;
+}/*# sourceMappingURL=widget2.css.map */
+
+.LDI{
+  transform: translateY(5px);
+  
+}
+
+
+
+
+
+.userid{
+  margin-left: 5px;
+  font-size: 22px;
+}
+@media screen and (max-width: 918px) {
+  .widget2{
+    width: 390px;
+  }
+}

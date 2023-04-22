@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+:root {
+  --PrimaryColor: hsl(94, 59%, 35%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0% ,100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+/* base styles & title */
+body {
+  font-family: "Noto Serif";
+  color: var(--PrimaryColor);
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title h1 {
+  color: var(--PrimaryColor);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.title h2, .title p {
+  text-align: center;
+}
+
+.title h2 {
+  margin-top: 60px;
+  font-size: 2.6rem;
+}
+
+/* upload form styles */
+form {
+  margin: 30px auto 10px;
+  text-align: center;
+}
+
+.uploadImage input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.uploadImage {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--PrimaryColor);
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 30px;
+  color: var(PrimaryColor);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.uploadImage:hover {
+  background: var(--PrimaryColor);
+  color: white;
+}
+
+.output {
+  height: 60px;
+  font-size: 0.8rem;
+}
+
+.error {
+  color: var(--error);
+}
+
+/* progress bar styles */
+.progress-bar {
+  height: 5px;
+  background: var(--PrimaryColor);
+  margin-top: 20px;
+}
+
+/* image grid styles */
+.img-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.img-wrap {
+  overflow: hidden;
+  height: 0;
+  padding: 10rem 10rem;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  opacity: 0.8;
+}
+
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* modal styles */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.backdrop img {
+  display: block;
+  max-width: 60%;
+  max-height: 80%;
+  margin: 60px auto;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  border: 3px solid white;
+}/*# sourceMappingURL=gallery.css.map */
+
+
+/* New CSS */
+.Gallery{
+  width: 87%;
+  overflow-y: auto;
+  height: 1200px;
+  margin: 10px;
+}
+
+.GalleryImage{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 33px;
+}
+
+.GalleryTitle{
+  font-size: 80px;
+  font-weight: 16;
+  text-align: center;
+  margin-top: 30px;
+  overflow-y: auto;
+}
+
+.GalleryTitle1{
+  font-size: 40px;
+  font-weight: 16;
+  text-align: center;
+  margin-top: 50px;
+  overflow-y: auto;
+  text-decoration: 1px underline;
+}
+
+.ImageGrid{
+  max-width: 400px; 
+  max-height: 400px; 
+  margin: 3px;
+  
+}
+.ImageGrid1{
+  max-width: 200px; 
+  max-height: 200px; 
+  margin: 2px;
+  
+}
+
+.ImageGrid2{
+  max-width: 400px; 
+  max-height: 400px; 
+  margin: 2px;
+  
+}
+
+.IG{
+  object-fit: contain;
+}
+
+.GalleryImage1{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  padding: 0.2rem;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 33px;
+}
+
+
+.Gallery1{
+  width: 87%;
+  
+  overflow-y: auto;
+  height: 1200px;
+  margin: 10px;
+}
+@media screen and (max-width: 918px) {
+  .GalleryImage{
+    width: 310px;
+    height: 800px;
+    margin-left: 0;
+  }
+
+  .IG{
+    width: 300px; 
+    height: 300px;
+    
+  }
+}

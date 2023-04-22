@@ -1,0 +1,15 @@
+.View{
+    margin-left: 7px;
+    overflow-y: auto;
+    
+    
+    
+    
+}
+
+.PostsView{
+    
+    justify-content: center;
+    
+    overflow-y: auto;
+}

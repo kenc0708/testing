@@ -1,0 +1,48 @@
+/* Default styles */
+.charts {
+  display: flex;
+  width: 87%;
+  margin-left: 20px; /* Adjust to fit with sidebar */
+  
+}
+
+.charts .chartsContainer {
+  flex: 6;
+  
+}
+
+.charts .chartsContainer .widgets,
+.charts .chartsContainer .graphs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.charts .chartsContainer .graphs {
+  padding: 5px 20px;
+}
+
+/* Media queries for smaller screens */
+
+@media screen and (max-width: 918px) {
+  .charts {
+    flex-direction: column;
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .charts .chartsContainer {
+    flex: 1;
+  }
+
+  .charts .chartsContainer .widgets,
+  .charts .chartsContainer .graphs {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .charts .chartsContainer .graphs {
+    padding: 5px 10px;
+  }
+}

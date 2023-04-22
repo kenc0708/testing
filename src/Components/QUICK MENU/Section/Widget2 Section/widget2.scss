@@ -1,0 +1,76 @@
+.widget2{
+    display: flex;
+    justify-content: space-between;
+    flex: 4;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+    border-radius: 10px;
+    height: 150px;
+    width: 450px;
+    
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .counter{
+            font-size: 26px;
+            font-weight: 300;
+            
+            
+            padding-right: 1rem;
+            
+
+            .userid{
+                color: rgb(0, 0, 0);
+            }
+
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+                transition: .5s ease;
+            }
+        }
+        }
+
+        .link{
+            color: rgb(240, 188, 17);
+            width: max-content;
+            font-size: 32px;
+            font-weight: bold;
+            border-bottom: 1px solid gray;
+        }
+
+        .percentage{
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            font-size: 26px;
+
+            &.positive{
+                color: green; 
+            }
+
+            &.negative{
+                color: red; 
+            }
+        }
+
+        .icon{
+            font-style: 24px;
+            padding: 5px;
+            border-radius: 5px;
+            align-self: flex-end;
+        }
+
+        .place{
+            padding: 10px;
+        }
+
+        
+}

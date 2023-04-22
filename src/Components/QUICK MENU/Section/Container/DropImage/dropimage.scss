@@ -1,0 +1,30 @@
+.BoxContainer{
+    display: flex;   
+    padding: 15px;
+    background-color: rgba(144, 233, 156, 0.75);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: 20px;
+
+    .a{ 
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+
+        .title{
+            font-size: 24px;
+            color: rgb(37, 126, 71);
+        }
+    }
+
+    .b{
+        padding-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+}

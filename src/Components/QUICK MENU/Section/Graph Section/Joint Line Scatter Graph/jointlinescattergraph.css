@@ -1,0 +1,24 @@
+.jointlinescattergraph {
+  flex: 1;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  border-radius: 10px;
+  height: auto;
+  width: 600px;
+}
+.jointlinescattergraph .title {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 24px;
+  font-weight: 500 bold;
+}
+.jointlinescattergraph .graphGrid {
+  stroke: lightgray;
+}/*# sourceMappingURL=jointlinescattergraph.css.map */
+
+@media screen and (max-width: 918px) {
+  .jointlinescattergraph{
+    width: 390px;
+  }
+}

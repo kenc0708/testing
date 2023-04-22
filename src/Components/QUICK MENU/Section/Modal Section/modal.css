@@ -1,0 +1,81 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.modalContainer {
+  max-width: 2000px;
+  max-height: 1300px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+ 
+}
+.modalLeft {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+}
+.modalRight {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  flex-grow: 1;
+  justify-content: center;
+}
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}
+.btnSubmit {
+  width: 97.5%;
+  margin: 13px;
+  padding: 15px;
+  border: none;
+  background-color: rgb(144, 233, 156);
+  border-radius: 15px;
+}
+.btnSubmit:hover {
+  background-color: rgb(89, 182, 101);
+  color: white;
+  transition: 0.5;
+}/*# sourceMappingURL=modal.css.map */
+
+.btnSubmitText{
+  font-weight: 16;
+  font-size: 24px;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .modalContainer{
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  
+
+  .btnSubmit {
+    width: auto;
+    
+  }
+
+  
+}

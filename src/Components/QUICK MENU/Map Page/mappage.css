@@ -1,0 +1,92 @@
+.Map {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  width: 87%;
+  height: 100%;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.MapContainer {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.SearchBoxContainer {
+  width: 100%;
+  height: 45%;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.RContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.FilteredLocationsContainer{
+  height: 660px;
+  width: 400px;
+  overflow-Y: auto;
+  box-Shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.75);
+  background-Color: white;
+  border-Radius: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.NearbyPost{
+  font-size: 24px;
+  color: rgb(37, 126, 71);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Filtered{
+  font-size: 16px;
+  color: rgb(37, 126, 71);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-weight: 12;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 918px) {
+  .Map {
+    flex-direction: column;
+    padding: 5px;
+    
+  }
+  
+  .MapContainer {
+    width: 400px;
+    
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+  
+  .SearchBoxContainer {
+    margin-top: 10px;
+    height: auto;
+    margin-left: 0px;
+  }
+  
+  .FilteredLocationsContainer {
+    
+    margin-top: 15px;
+    height: 150px;
+    margin-left: 0px;
+  }
+
+  
+}
+

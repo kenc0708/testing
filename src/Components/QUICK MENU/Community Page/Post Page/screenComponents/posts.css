@@ -1,0 +1,131 @@
+.ViewContainer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.View{
+    margin-right: 7px;
+    width: 100%;
+}
+.ImageView{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TitleViewText{
+    font-size: 30px;
+    font-weight: 16;
+    padding-left: 10px;
+    color: black;
+}
+
+.TitleViewText1{
+    font-size: 16px;
+    font-weight: 16;
+    padding-left: 10px;
+    color: black;
+}
+
+.TitleViewText2{
+    transform: translate(-2px, 10px);
+}
+
+.PostImageView{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.TouchableView{
+    flex-direction: row;
+    align-items: center;
+}
+
+.BottomView{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+
+.btn1{
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+}
+
+.locationIcon{
+    transform: translate(-2px, 3px);
+}
+.Touchable{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userComment{
+    font-weight: 200;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.CommentOption{
+    opacity: 0.6;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.NumView{
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.AddCommentView{
+    padding-top: 5px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    
+}
+
+.userComment1{
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 5px;
+    
+}
+
+.leftView{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TitleViewText2{
+    font-size: 16px;
+    font-weight: 16;
+    padding-left: 10px;
+    color: black;
+    
+    opacity: 0.5;
+}
+
+.Img1{
+    transform: translate(-2px, 3px);
+}
+
+.Img2{
+    transform: translate(-2px, 10px);
+}
+
+.View {
+    height: 100%; 
+    overflow-y: auto; 
+}

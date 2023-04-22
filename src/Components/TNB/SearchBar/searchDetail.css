@@ -1,0 +1,201 @@
+/* Default styles */
+.Wiki{
+  margin-left: 20px;
+  width: 97%;
+  height: 90%;
+}
+.TOPNB{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.arrow{
+  transform: translateY(5px);
+}
+
+.Left{
+  display: flex;
+  flex-direction: row;
+}
+
+.Right{
+  width: 500px;
+  margin-right: 80px;
+}
+
+
+
+.SearchTitle {
+  font-size: 32px;
+  color: rgb(37, 126, 71);
+  margin-left: 20px;
+}
+
+.SubSearchTitle{
+  font-weight: 16;
+  font-size: 32px;
+  color: rgb(37, 126, 71);
+  margin-left: 20px;
+  text-decoration: 1px underline;
+}
+
+.WikiContainer {
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+}
+
+.ContainerLeft {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.BirdResource {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: 1px solid rgba(52, 143, 64, 0.466);
+}
+
+.InfoContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #ffffffd0;
+  border: 1px solid rgba(52, 143, 64, 0.466);
+}
+
+.ContainerRight {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  overflow-y: auto;
+  
+}
+
+.Title {
+  font-weight: 16px;
+  font-size: 24px;
+  color: rgb(37, 126, 71);
+  padding: 15px;
+  text-decoration: underline;
+}
+
+.SubTitle {
+  font-weight: 16;
+  font-size: 22px;
+  color: rgb(37, 126, 71);
+  padding: 15px;
+}
+
+.InfoContainer1 {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  border: 1px solid rgba(52, 143, 64, 0.466);
+  margin-top: 10px;
+  
+  border-radius: 15px;
+  background-color: #ffffffd0;
+  
+}
+
+.InfoContainer2 {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #ffffffd0;
+  border: 1px solid rgba(52, 143, 64, 0.466);
+}
+
+.InfoContainer3 {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: auto;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #ffffffd0;
+  border: 1px solid rgba(52, 143, 64, 0.466);
+}
+
+.image {
+  width: 80%;
+  max-height: 750px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+/* Media queries */
+@media  screen and (max-width: 918px) {
+  .Wiki{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    overflow-y: auto;
+  }
+
+  .TOPNB{
+    flex-direction: column;
+  }
+
+  .Left{
+    flex-direction: column;
+  }
+
+  .Right{
+    width: 100%;
+    margin: 10px;
+    
+  }
+
+  .WikiContainer {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .ContainerLeft {
+    width: 100%;
+    
+  }
+
+  .ContainerRight {
+    width: 100%;
+    margin-left: 0;
+    overflow-y: auto;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 0.5rem;
+  }
+
+  .InfoContainer3{
+    width: auto;
+  }
+}

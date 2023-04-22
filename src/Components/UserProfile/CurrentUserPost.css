@@ -1,0 +1,23 @@
+.birdDetailComment{
+    display: flex;
+    flex-direction: column;
+}
+
+.PostNull{
+    width: 1000px;
+}
+
+.PostNullText{
+    display: flex;
+    font-size: 36px;
+    font-weight: 16;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.STATUS{
+    font-size: 24px;
+    font-weight: 400;
+    color: orange;
+}
+
